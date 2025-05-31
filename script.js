@@ -23,7 +23,7 @@ function createTable() {
 			}
 			else{
 				
-				date=document.createElement("td");
+				data=document.createElement("td");
 			}
 			data.innerHTML=`Row-${i} Column-${j}`;
 			curr.appendChild(data);
